@@ -58,6 +58,7 @@ modules:
       - /lib/libglibmm_generate_extra_defs*
       - /lib/pkgconfig
 
+  # TODO: pango in SDK appears to be built without cairo support?
   - name: cairomm
     sources:
       - sha256: 6f6060d8e98dd4b8acfee2295fddbdd38cf487c07c26aad8d1a83bb9bff4a2c6
