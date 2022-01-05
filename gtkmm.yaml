@@ -29,8 +29,6 @@ modules:
         x-checker-data:
           type: gnome
           name: libsigc++
-          versions:
-            <: 3.0.0
     config-opts:
       - --disable-documentation
     cleanup:
