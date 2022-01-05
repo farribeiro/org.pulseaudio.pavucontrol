@@ -60,9 +60,9 @@ modules:
 
   - name: cairomm
     sources:
-      - sha256: a54ada8394a86182525c0762e6f50db6b9212a2109280d13ec6a0b29bfd1afe6
+      - sha256: 6f6060d8e98dd4b8acfee2295fddbdd38cf487c07c26aad8d1a83bb9bff4a2c6
         type: archive
-        url: https://download.gnome.org/sources/cairomm/1.12/cairomm-1.12.0.tar.xz
+        url: https://www.cairographics.org/releases/cairomm-1.16.1.tar.xz
         x-checker-data:
           type: anitya
           project-id: 7959
