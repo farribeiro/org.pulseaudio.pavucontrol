@@ -29,8 +29,9 @@ modules:
         x-checker-data:
           type: gnome
           name: libsigc++
+    buildsystem: meson
     config-opts:
-      - --disable-documentation
+      - -Dbuild-examples=false
     cleanup:
       - '*.la'
       - /include/sigc++-2.0
@@ -45,8 +46,9 @@ modules:
         x-checker-data:
           type: gnome
           name: glibmm
+    buildsystem: meson
     config-opts:
-      - --disable-documentation
+      - -Dbuild-examples=false
     cleanup:
       - '*.la'
       - /include/glibmm-2.4
